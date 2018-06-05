@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "7ffeb79b80886d28d1bc0c3e47fe0ef8",
+    "content-hash": "46cd419f139398e1963765e9c3a7ebe9",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.59.0",
+            "version": "3.61.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "91149ea885f951eac91563a56263cfa4a8f48f6c"
+                "reference": "5dabf378a52afd357fedd290f6b1837aec15eab8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/91149ea885f951eac91563a56263cfa4a8f48f6c",
-                "reference": "91149ea885f951eac91563a56263cfa4a8f48f6c",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/5dabf378a52afd357fedd290f6b1837aec15eab8",
+                "reference": "5dabf378a52afd357fedd290f6b1837aec15eab8",
                 "shasum": ""
             },
             "require": {
@@ -84,7 +84,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2018-05-31T01:08:17+00:00"
+            "time": "2018-06-04T21:48:21+00:00"
         },
         {
             "name": "composer/ca-bundle",
@@ -4290,6 +4290,26 @@
             "homepage": "https://wordpress.org/plugins/redis-cache/"
         },
         {
+            "name": "wpackagist-plugin/updraftplus",
+            "version": "1.14.11",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/updraftplus/",
+                "reference": "tags/1.14.11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/updraftplus.1.14.11.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/updraftplus/"
+        },
+        {
             "name": "wpackagist-plugin/wordfence",
             "version": "6.3.22",
             "source": {
@@ -4328,6 +4348,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wordpress-importer/"
+        },
+        {
+            "name": "wpackagist-plugin/wordpress-seo",
+            "version": "7.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
+                "reference": "tags/7.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.7.6.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wordpress-seo/"
         },
         {
             "name": "wpackagist-plugin/wp-ses",
